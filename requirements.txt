@@ -1,0 +1,9 @@
+imutils==0.5.2
+numpy==1.16.2
+opencv-python==4.1.0.25
+playsound==1.2.2
+ruamel.yaml==0.15.91
+scipy==1.2.1
+vext==0.7.3
+vext.gi==0.7.0
+dlib==19.17.0
