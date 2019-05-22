@@ -8,7 +8,7 @@ echo 'This is' ${OSTYPE};
 case ${OSTYPE} in
 	Linux)
 		echo "****** Installing on Linux ******";
-		sudo apt install python3 python3-pip build-essential cmake libgtk-3-dev libboost-all-dev --yes;
+		sudo apt install python3 python3-pip build-essential cmake libgtk-3-dev python3-gi libboost-all-dev --yes;
 		sudo pip3 install -r requirements.txt;;
 	Darwin)
 		echo "****** Installing on MacOS ******";
@@ -23,3 +23,4 @@ case ${OSTYPE} in
 		echo "****** Unsupported OS: ${OSTYPE} ******";;
 esac
 
+echo "Installation complete!";

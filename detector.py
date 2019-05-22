@@ -1,4 +1,5 @@
 import cv2
+import sys
 import time
 import dlib
 import imutils
@@ -17,7 +18,7 @@ class Detector:
     # blink and then a second constant for the number of consecutive
     # frames the eye must be below the threshold for to set off the
     # alarm
-    EYE_AR_THRESH = 0.17
+    EYE_AR_THRESH = 0.17 if sys.platform == 'darwin' else 0.25
     EYE_AR_CONSEC_FRAMES = 60
 
     # initialize the frame counter as well as a boolean used to
