@@ -1,6 +1,6 @@
 imutils==0.5.2
 numpy==1.16.2
-opencv-python==4.1.0.25
+opencv-python==4.2.0.32
 playsound==1.2.2
 ruamel.yaml==0.15.91
 scipy==1.2.1
